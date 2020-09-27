@@ -3,12 +3,13 @@
 
 # In[2]:
 
+# draw a graph with cont. error bar (e.g. absorption spectrum of cyanobacterial cells)
 
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv('C:\\Users/mihara/Desktop/spec/spec1.csv')
+df = pd.read_csv('file_path')
 print(df)
 x = np.array(df['WL'])
 x_rev = np.flip(x)
