@@ -3,7 +3,7 @@
 
 # In[26]:
 
-# calcurate the midpoint potential of protein and plot graphs
+# calcurate the midpoint potential of protein and draw the titration curves
 
 import matplotlib.pyplot as plt
 import numpy as np
