@@ -3,13 +3,14 @@
 
 # In[26]:
 
+# calcurate the midpoint potential of protein and plot graphs
 
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import scipy.optimize
 
-df = pd.read_excel('calcurate_Em/まとめ.xlsx', sheet_name='test')
+df = pd.read_excel('file_path', sheet_name='sheet_name')
 df
 
 xm = np.array(df['Em'].values)
