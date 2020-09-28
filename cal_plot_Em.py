@@ -35,9 +35,10 @@ def calcurate (x, y):
 
 def plot_graph (x, y, Em, num,  sd):
     print('\n#', num)
-    y_app = fit_func(x, Em)
+    xseq = np.arange(x[0], x[-1], 1, dtype=np.int64)
+    y_app = fit_func(xseq, Em)
     plt.plot(x, y,'ko')
-    plt.plot(x, y_app)
+    plt.plot(xseq, y_app)
     if sd is not None:
         plt.errorbar(x, y, yerr=sd, capthick=1, capsize=5, fmt='none', ecolor='k')
     plt.show()
