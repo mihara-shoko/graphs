@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[5]:
+# calculate the midpoint potential and draw the titration curves
 
 
 import matplotlib.pyplot as plt
